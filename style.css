@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #dfe8ff;
+}
+
+.bg {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.container {
+    width: 25vw;
+    height: 80vh;
+    min-width: 300px;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 4px 7px 23px -5px rgba(56, 42, 225, 0.49);
+    -webkit-box-shadow: 4px 7px 23px -5px rgba(56, 42, 225, 0.49);
+    -moz-box-shadow: 4px 7px 23px -5px rgba(56, 42, 225, 0.49);
+}
+
+.imgdiv {
+    width: 100%;
+}
+
+.imgdiv>img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.description {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.description>h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #2b355d;
+}
+
+.description>p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 1.5;
+    color: #737591;
+}
+
+.plandiv {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.plan {
+    width: 80%;
+    background-color: #f3f4fa;
+    border-radius: 10px;
+    padding: 1em 1em
+}
+
+.planbrief {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planbrief>li>ul {
+    list-style: none;
+}
+
+.priceimg {
+    display: flex;
+    align-items: center;
+}
+
+.priceimg>ul {
+    margin-left: 1rem;
+}
+
+.priceimg>ul>li {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: .85rem; 
+} 
+.priceimg>ul>li:nth-child(1) {
+    font-weight: 900;
+}
+
+.planbrief>li>a {
+    font-weight: 700;
+    color: #382ae1;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: .85rem;
+}
+
+.buttondiv {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    justify-content: space-between;
+}
+
+.buttondiv>button {
+    margin: .5rem;    
+}
+
+.buttondiv>button:nth-child(1) {
+    font-size: .85rem;
+    padding: 1em;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 100ms ease-in-out;
+}
+
+.buttondiv>button:nth-child(1):hover {
+    background-color: #382ae1;
+    color: white;
+    box-shadow: 4px -4px 23px -5px rgba(56,42,225,0.49);
+-webkit-box-shadow: 4px -4px 23px -5px rgba(56,42,225,0.49);
+-moz-box-shadow: 4px -4px 23px -5px rgba(56,42,225,0.49);
+}
+
+.buttondiv>button:nth-child(2) {
+    background-color: transparent;
+    border:none;
+}
+
+.buttondiv>button>a {
+    font-size: .85rem;
+    font-weight: 600;
+    color: #737591;
+    text-decoration: none;
+}
+
+.buttondiv>button>a:hover {
+   color: #392ae1b5;
+}
+
+
+@media (max-width:1300px) {
+    .container {
+        height: 75vh;
+    }
+}
