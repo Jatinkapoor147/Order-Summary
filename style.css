@@ -179,13 +179,13 @@ body {
 
 @media (max-width:420px) {
     .container {
-        height: 68%;
+        height: 65%;
         width: 85vw;
     }
 }
 @media (max-width:375px) {
     .container {
-        height: 73%;
+        height: 80%;
         width: 85vw;
     }
 }
