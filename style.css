@@ -179,7 +179,7 @@ body {
 
 @media (max-width:375px) {
     .container {
-        height: 35rem;
+        height: 33rem;
         width: 85vw;
     }
 }
