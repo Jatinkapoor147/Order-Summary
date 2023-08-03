@@ -177,9 +177,15 @@ body {
     }
 }
 
+@media (max-width:420px) {
+    .container {
+        height: 65%;
+        width: 85vw;
+    }
+}
 @media (max-width:375px) {
     .container {
-        height: 33rem;
+        height: 73%;
         width: 85vw;
     }
 }
