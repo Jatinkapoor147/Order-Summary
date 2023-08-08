@@ -180,7 +180,7 @@ body {
 
 @media (max-width:420px) {
     .container {
-        height: 67vh;
+        height: 70vh;
         width: 85vw;
     }
 }
